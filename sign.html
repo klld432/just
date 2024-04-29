@@ -1,0 +1,143 @@
+ <html>
+	<head>
+		<title>Sign Up!</title>
+		<style>
+	
+	.login {
+	color:#7B538F;
+	position:absolute;
+	top:50%;
+	left:30%;
+	text-align:center;
+	padding:60px 30px;
+	width:370px;
+	background:rgba(255,255,255,0.04);
+	box-shadow:-1px 4px 28px 0px rgba(0,0,0,0.75);
+	transform:translate(-50%,-50%);
+	}
+		
+	.login h2 {
+	color: #7B538F;
+	font-size: 39px;
+	margin: 0 0 35px 0;
+	}
+		
+	.log{
+	
+	position: relative;
+	height: 45px;
+	width: 100%;
+	display: flex;
+	background: rgba(255,255,255,0.94)	
+	}
+		
+	.log input{
+	height: 100%;
+	width: 100%;
+	color:#222; 
+	font-size: 16px;
+	text-align:end;
+	margin-right: 10px;
+	background:transparent;
+	border: none;
+	outline:none;
+	}
+		
+	.space{
+	margin-top: 16px;
+	}
+		 
+		 .show{
+	position:absolute;
+	font-size:13px;
+	font-weight:500;
+	color:#7B538F;
+	cursor:pointer;
+	}
+	
+	.pass-key:void .show{
+	display:block;
+	}
+	
+	.log span{
+	width:40px;
+	line-height:45px; 
+	}
+	
+	.enter input{
+	background: #D2A3EB;
+	border: 8px solid #D2A3EB;
+	color: #EEEEEE;
+	font-size: 15px;
+	cursor: pointer;
+	}
+	
+	.enter input:hover{
+	background: #EEEEEE;
+	}
+	
+	.enter input{
+	height:100%;
+	width:50%;
+	border:none;
+	outline:none;
+	color:white;
+	margin-top:20px;
+	font-size:15px;
+	}
+	
+	.signup{
+	color:#EEEEEE;
+	margin-top:20px;
+	}
+	
+	.signup a{
+	color:#7B538F;
+	text-decoration:none;
+	}
+	
+	.signup a:hover{
+	text-decoration: underline;
+	}
+	
+	
+		</style>
+	</head>
+	
+	<body style="background-color:#A0A0A0; font-family: Courier New;">
+		<header>
+			<nav>
+				<a style="margin-right:58%;" href="web.html"><img width="13%" src="img/Logo.png"></a>
+				<a href="contact.html"><img width="13%" src="img/contact.png"></a>
+				<a href="ref.html"><img width="13%" src="img/ref.png"></a>
+			</nav>
+		</header>
+
+		<div class="login"> 
+				<h2>SIGN IN</h2>
+				<form>
+				
+				<div class="log">
+				<input type="text" required placeholder="username">
+				</div>
+				
+				<div class="log space">
+				<input type="password" class="pass-key" required placeholder="password">
+				<span  class="show">SHOW </span>
+				
+				</div>
+				
+				<div class="enter">
+				<input type="submit" value="Enter"> 
+				</div>
+				</form>
+				
+				<div class="signup">You do not have an account?
+				<a href="#"> NEW ACCOUNT</a>
+				
+				</div>
+		</div>
+		<img src="img/6.png" width="30%" style="padding-left:60%;">
+		<script type=" text/javascript" src="java.js"> </script>
+	</body>
+</html>
